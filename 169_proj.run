@@ -1,0 +1,5 @@
+reset;
+model 169_proj.mod;
+option solver cplex;
+solve;
+display cost, x, y, _total_solve_time, p_max; # could it actually be p_min?
