@@ -1,2 +1,2 @@
 # AMPL-Code-for-Linear-Integer-Programming-Problems
-AMPL code used to solve common problems in IEOR 169 and 162. Included are the assignment problem, traveling salesman, uncapacitated facility location planning, shortest path, etc. Also, some other sample LP data files, models are included.
+AMPL code used to solve common problems in IEOR 169 and 162. Included are the assignment problem, traveling salesman, uncapacitated facility location planning, shortest path, etc. Also, some other sample LP data files and models are included. Finally, a script to utilize the AMPL python API, where data is synthetically generated and automatically ran. 
