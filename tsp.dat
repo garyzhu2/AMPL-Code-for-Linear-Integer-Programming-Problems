@@ -1,0 +1,28 @@
+set N := A B C D E F;
+set firstCity := A;
+
+# subsets of 1 edge
+set s1 := A B;
+set s2 := A C;
+set s3 := A D;
+set s4 := A E;
+set s5 := A F;
+set s6 := B C;
+set s7 := B D;
+set s8 := B E;
+set s9 := B F;
+set s10 := C D;
+set s11 := C E;
+set s12 := C F;
+set s13 := D E;
+set s14 := D F;
+set s15 := E F;
+
+
+param cost: A B C D E F :=
+A 100000 5 7 6 3 4
+B 5 100000 6 8 3 4
+C 7 6 100000 2 4 3
+D 6 8 2 100000 4 3
+E 3 3 4 4 100000 2
+F 4 4 3 3 2 100000

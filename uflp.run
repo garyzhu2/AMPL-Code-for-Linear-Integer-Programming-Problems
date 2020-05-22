@@ -1,0 +1,9 @@
+reset;
+
+model uflp.mod;
+data uflp.dat;
+option solver cplex;
+
+solve;
+
+display  cost, x

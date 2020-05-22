@@ -1,0 +1,5 @@
+reset;
+option solver cplex;
+model nqueens.mod;
+solve;
+display X;

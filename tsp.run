@@ -1,0 +1,10 @@
+reset;
+
+model tsp.mod;
+data tsp.dat;
+
+option solver cplex;
+solve;
+
+display total_cost;
+display _varname, _var;

@@ -1,0 +1,4 @@
+reset;
+model shortest_path.mod;
+solve;
+display X, Total_Weight;

@@ -1,0 +1,16 @@
+reset;
+
+model primal.mod;
+data LP.dat;
+option solver cplex;
+solve;
+display _varname, _var;
+display z;
+reset;
+
+model dual.mod;
+data LP.dat;
+option solver cplex;
+solve;
+display _varname, _var;
+display w;

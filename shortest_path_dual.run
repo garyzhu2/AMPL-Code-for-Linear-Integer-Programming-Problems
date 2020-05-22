@@ -1,0 +1,4 @@
+reset;
+model shortest_path_dual.mod;
+solve;
+display y, dual_val;

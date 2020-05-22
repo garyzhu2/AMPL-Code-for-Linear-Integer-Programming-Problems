@@ -1,0 +1,5 @@
+reset;
+model knapsack.mod;
+data knapsack.dat;
+solve;
+display objective,x;
