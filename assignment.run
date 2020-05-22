@@ -1,6 +1,0 @@
-reset;
-model assignment.mod;
-data assignment.dat;
-option solver cplex;
-solve;
-display totalCost, x;
